@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Javascript: Number Fact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800;900&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Custom CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div style="height: 90vh" class="d-flex mt-4 justify-content-center align-items-center">
+  <div class="container text-center">
+    <h1 class="display-3 text-danger">Number Fact</h1>
+    <p class="lead">Enter any Number and check the Fact of that Number🙂!</p>
+
+    <form class="numberFact form-inline d-flex justify-content-center mt-5">
+      <input type="number" class="inputNumber form-control form-control-lg mr-2 mb-2" />
+      <input type="submit" class="btn btn-danger btn-lg" value="Get the Fact" />
+    </form>
+
+    <div class="card numberResult mt-4">      
+      <div class="card-body">
+        <h5 class="card-title">🤔Number Facts of <strong>5</strong>:</h5>
+        <textarea class="card-text"></textarea>
+        <button class="btn btn-dark btn-copy"><i class="far fa-copy"></i> <i class="fas fa-copy"></i> Copy the Fact</button>
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
